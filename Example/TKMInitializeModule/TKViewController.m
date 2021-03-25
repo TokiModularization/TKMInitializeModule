@@ -8,6 +8,8 @@
 
 #import "TKViewController.h"
 
+#import <TKMInitializeModule/TKMInitializeModule.h>
+
 @interface TKViewController ()
 
 @end
@@ -18,6 +20,17 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [[TKModule shared] initializeWithEnvironment:0];
+    
+    [[TKMAccountInfoManager shared] loginWithUserId:@"999"
+                                           callback:^(NSDictionary * _Nonnull response, NSError * _Nonnull error) {
+        if (error) {
+            NSLog(@"%@", error);
+        } else {
+            NSLog(@"%@", response);
+        }
+    }];
 }
 
 - (void)didReceiveMemoryWarning

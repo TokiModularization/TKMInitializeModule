@@ -62,10 +62,10 @@
 		6C9E18A69780D54C0F9C89C5 /* libPods-TKMInitializeModule_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TKMInitializeModule_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		896A2B60D277C8FD7BF56F9A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		896A2B60D277C8FD7BF56F9A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9AB0DCBEA58EF093E141D75E /* libPods-TKMInitializeModule_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TKMInitializeModule_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B447A0E7E8CEC2484B5D2378 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B734D293630BC4A8259E2FDE /* TKMInitializeModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TKMInitializeModule.podspec; path = ../TKMInitializeModule.podspec; sourceTree = "<group>"; };
+		B447A0E7E8CEC2484B5D2378 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B734D293630BC4A8259E2FDE /* TKMInitializeModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TKMInitializeModule.podspec; path = ../TKMInitializeModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E5B15D63306DCF2AEE4EEC0A /* Pods-TKMInitializeModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKMInitializeModule_Example.release.xcconfig"; path = "Target Support Files/Pods-TKMInitializeModule_Example/Pods-TKMInitializeModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				50EEAC9033065E134B2DDDEA /* Pods-TKMInitializeModule_Tests.debug.xcconfig */,
 				5F2FDAE5A11BDC785550E75E /* Pods-TKMInitializeModule_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -257,6 +256,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
