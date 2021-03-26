@@ -26,15 +26,6 @@
     [super viewDidAppear:animated];
     
     [[TKModule shared] initializeWithEnvironment:0];
-    
-    [[TKMAccountInfoManager shared] loginWithUserId:@"999"
-                                           callback:^(NSDictionary * _Nonnull response, NSError * _Nonnull error) {
-        if (error) {
-            NSLog(@"%@", error);
-        } else {
-            NSLog(@"%@", response);
-        }
-    }];
 }
 
 - (void)didReceiveMemoryWarning

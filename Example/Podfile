@@ -1,9 +1,12 @@
+source 'https://mirrors.bfsu.edu.cn/git/CocoaPods/Specs.git'
 source 'https://github.com/TokiPods/specs.git'
 
 platform :ios, '9.0'
 
 target 'TKMInitializeModule_Example' do
   pod 'TKMInitializeModule', :path => '../'
+  
+  pod 'TKMAccountModule'
 
   target 'TKMInitializeModule_Tests' do
     inherit! :search_paths

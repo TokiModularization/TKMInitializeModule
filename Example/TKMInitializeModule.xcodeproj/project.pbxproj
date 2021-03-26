@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		D5967F115AC9E6D33B560A5D /* libPods-TKMInitializeModule_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9E18A69780D54C0F9C89C5 /* libPods-TKMInitializeModule_Example.a */; };
+		FEE67BF8260DD07400DBE15E /* TKModule+Mock.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE67BF7260DD07400DBE15E /* TKModule+Mock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		B447A0E7E8CEC2484B5D2378 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B734D293630BC4A8259E2FDE /* TKMInitializeModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TKMInitializeModule.podspec; path = ../TKMInitializeModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E5B15D63306DCF2AEE4EEC0A /* Pods-TKMInitializeModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKMInitializeModule_Example.release.xcconfig"; path = "Target Support Files/Pods-TKMInitializeModule_Example/Pods-TKMInitializeModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FEE67BF7260DD07400DBE15E /* TKModule+Mock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TKModule+Mock.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* TKViewController.h */,
 				6003F5A6195388D20070C39A /* TKViewController.m */,
+				FEE67BF6260DD07400DBE15E /* TKModule */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -194,6 +197,14 @@
 				5F2FDAE5A11BDC785550E75E /* Pods-TKMInitializeModule_Tests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		FEE67BF6260DD07400DBE15E /* TKModule */ = {
+			isa = PBXGroup;
+			children = (
+				FEE67BF7260DD07400DBE15E /* TKModule+Mock.m */,
+			);
+			path = TKModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -370,6 +381,7 @@
 				6003F59E195388D20070C39A /* TKAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* TKViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				FEE67BF8260DD07400DBE15E /* TKModule+Mock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
