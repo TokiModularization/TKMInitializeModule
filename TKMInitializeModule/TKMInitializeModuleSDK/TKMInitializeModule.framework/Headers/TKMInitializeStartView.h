@@ -1,5 +1,5 @@
 //
-//  TKMInitializeAlertView.h
+//  TKMInitializeStartView.h
 //  TKMInitializeModule
 //
 //  Created by Thief Toki on 2021/3/26.
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TKMInitializeAlertView : UIView
+@interface TKMInitializeStartView : UIView
 
 @end
 
