@@ -5,16 +5,16 @@ PODS:
     - TKMInfoManager/SourceMode
     - TKMRequest
   - TKMInfoManager/SourceMode (0.1.1)
-  - TKMInitializeModule (0.1.1):
-    - TKMInitializeModule/Core (= 0.1.1)
-  - TKMInitializeModule/Core (0.1.1):
+  - TKMInitializeModule (0.1.2):
+    - TKMInitializeModule/Core (= 0.1.2)
+  - TKMInitializeModule/Core (0.1.2):
     - TKMInfoManager
     - TKMInitializeModule/Interface
     - TKMInitializeModule/SourceMode
     - TKModule
     - TKMResourceManager
-  - TKMInitializeModule/Interface (0.1.1)
-  - TKMInitializeModule/SourceMode (0.1.1)
+  - TKMInitializeModule/Interface (0.1.2)
+  - TKMInitializeModule/SourceMode (0.1.2)
   - TKModule (0.1.2):
     - TKModule/Core (= 0.1.2)
   - TKModule/Core (0.1.2):
@@ -47,7 +47,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   TKMInfoManager: 4d931f88ff4d139ab554ae381d1cc9e320185635
-  TKMInitializeModule: fec204e832cade6c85a4220cbdf089bfedfe09e5
+  TKMInitializeModule: fe736f4b8686f848b98bc3338f6efd8db28b9592
   TKModule: ebabe7fe5ba86ff3647d620d79b5285afd810bc1
   TKMRequest: 3a4f1e31de13cbbe79af9fc26a403794c74a4d37
   TKMResourceManager: 04897146ebd311971f484439d1af06f8f2771d35
