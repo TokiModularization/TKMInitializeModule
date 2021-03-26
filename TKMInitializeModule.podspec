@@ -77,6 +77,8 @@ Pod::Spec.new do |s|
     core.dependency 'TKModule'
     core.dependency 'TKMResourceManager'
     core.dependency 'TKMInfoManager'
+    
+    core.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
   end
   s.default_subspec = 'Core'
 end
