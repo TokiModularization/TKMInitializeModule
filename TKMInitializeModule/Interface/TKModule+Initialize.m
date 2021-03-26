@@ -7,6 +7,8 @@
 
 #import "TKModule+Initialize.h"
 
+#import "TKMInitializeAlertView.h"
+
 #import <TKMRequest/TKMRequest.h>
 
 @implementation TKModule (Initialize)
@@ -24,6 +26,8 @@
             @"token": [TKMAccountInfoManager shared].token?:@""
         };
     }];
+    
+    [[UIApplication sharedApplication].keyWindow addSubview:[TKMInitializeAlertView new]];
 }
 
 @end
