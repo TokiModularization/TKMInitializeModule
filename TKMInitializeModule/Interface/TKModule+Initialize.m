@@ -7,8 +7,9 @@
 
 #import "TKModule+Initialize.h"
 
-#import "TKMInitializeAlertView.h"
+#import "TKMInitializeStartView.h"
 
+#import <Masonry/Masonry.h>
 #import <TKMRequest/TKMRequest.h>
 
 @implementation TKModule (Initialize)
@@ -27,7 +28,11 @@
         };
     }];
     
-    [[UIApplication sharedApplication].keyWindow addSubview:[TKMInitializeAlertView new]];
+    TKMInitializeStartView *startView = [[TKMInitializeStartView alloc] init];
+    [[UIApplication sharedApplication].keyWindow addSubview:startView];
+    [startView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.mas_equalTo(UIEdgeInsetsZero);
+    }];
 }
 
 @end
